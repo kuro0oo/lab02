@@ -1,0 +1,19 @@
+.number{
+    margin-top: 50px;
+    
+  }
+  .number a{
+    padding: 10px;  
+    border: 1px solid rgb(190, 4, 4);
+    border-radius: 5px;
+    color: #f41e1e;
+  }
+  .number a:hover{
+    text-decoration: none;
+    color: white;
+    background:  rgb(190, 4, 4);
+  }
+  .active1{
+    background: rgb(190, 4, 4);
+    color: white !important;
+  }

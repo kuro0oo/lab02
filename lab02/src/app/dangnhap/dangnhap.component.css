@@ -1,0 +1,14 @@
+.content {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+    .content > h2 {
+        font-weight: bold;
+    }
+
+    .content > .form-group > .col-sm-10 > .form-control {
+        width: 300px !important; /*input cua dang nhap*/
+        border-left: 5px solid red;
+    }
+

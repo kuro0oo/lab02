@@ -1,0 +1,32 @@
+.content{
+    width: 75%;
+
+}
+
+.gioithieu{
+    width: 25%;
+}
+
+#marquee{
+    background-color: rgba(42, 125, 180, 0.527);
+}
+                                                            .nav-link {
+                                                                color: black;
+                                                            }
+
+                                                            .navbar ul li a{
+                                                                color: black;
+                                                                margin-left: 5px;
+                                                                text-align: center;
+                                                                margin-right: 5px;
+
+                                                            }
+
+                                                            .navbar ul li:hover{
+                                                                background-color: rgba(42, 125, 180, 0.527)
+                                                            }
+
+                                                            
+.card-body ul li{
+    list-style: none
+}

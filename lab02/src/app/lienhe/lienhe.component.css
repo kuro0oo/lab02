@@ -1,0 +1,188 @@
+.whychoose_us {
+    width: 100%;
+   
+    margin-top: 20px;
+    display: flex;
+    height: 440px;
+}
+.whychoose_us .content {
+    align-self: center;
+    margin: 0 auto;
+}
+.whychoose_us.content .word {
+    font-weight: bold;
+    font-family: Poppins;
+    color: black;
+    padding: 50px 0px;
+    display: flex;
+}
+.whychoose_us .content .word>h1 {
+    margin: 0 auto;
+    align-self: center;
+    font-size: 45px;
+}
+.whychoose_us>.content>.body {
+    display: flex;
+    margin-top: 15px;
+}
+.whychoose_us>.content>.body>.box {
+    border: 1px dotted black;
+    width: 380px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}.whychoose_us>.content>.body>.box>.box_1 {
+    border: 1px dotted black;
+    width: 360px;
+    height: 160px;
+    align-self: center;
+    display: flex;
+}
+
+.whychoose_us .content .body .box .box_1:hover {
+    transform: scale3d(1, 1, 1);
+    width: 380px;
+    height: 180px;
+    transition: 1.5s;
+}
+
+.whychoose_us>.content>.body>.box>.box_1>.noidung {
+    padding: 20px;
+    display: flex;
+}
+
+.whychoose_us>.content>.body>.box>.box_1>.noidung>.icon {
+    margin: 0 10px 0 0;
+}
+
+.whychoose_us>.content>.body>.box>.box_1>.noidung>.icon>.fa {
+    font-size: 40px;
+    color: black;
+}
+
+.whychoose_us>.content>.body>.box>.box_1>.noidung>.char {
+    color: black;
+    font-family: Poppins;
+}
+
+.whychoose_us>.content>.body>.box>.box_1>.noidung>.char>h2 {
+    font-weight: bold;
+}
+
+.whychoose_us>.content>.body>.box>.box_1>.noidung>.char>p {
+    color: #9BA3BA;
+    font-size: 13px;
+}
+.contactus {
+    width: 100%;
+    background: #333333;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactus>.about_us {
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contactus>.about_us>.text {
+    margin-top: 20px;
+    display: flex;
+}
+
+.contactus>.about_us>.text>.icon {
+    margin-right: 30px;
+}
+
+.contactus>.about_us>.text>.icon>span>.fa {
+    font-size: 20px;
+    color: #6F6F6F;
+}
+
+.contactus>.about_us>.text>span:hover {
+    color: #2C7DD8;
+    cursor: pointer;
+}
+
+.contactus>.popular_news {
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contactus>.popular_news>.text>.text_1 {
+    margin-top: 20px;
+}
+
+.contactus>.popular_news>.text>.text_1:hover {
+    color: #2C7DD8;
+    cursor: pointer;
+}
+
+.contactus>.popular_news>.text>.text_time {
+    font-size: 14px;
+    color: #66665D;
+}
+
+.contactus>.popular_news>.text:last-child {
+    margin-top: 25px;
+}
+
+.contactus>.popular_news>.text>.text_2:hover {
+    color: #2C7DD8;
+    cursor: pointer;
+}
+
+.contactus>.quick_links {
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contactus>.quick_links>.text>li {
+    margin-top: 7px;
+}
+
+.contactus>.quick_links>.text>li>span {
+    margin-right: 10px;
+}
+
+.contactus>.quick_links>.text>li>.word:hover {
+    color: #2C7DD8;
+    cursor: pointer;
+}
+
+.contactus>.quick_links>.text>li:first-child {
+    margin-top: 20px;
+}
+
+.contactus>.quick_links>.text>li>span>.fa {
+    font-size: 10px;
+    color: #6F6F6F;
+}
+
+.contactus>.quick_links>.block {
+    width: 150px;
+    height: 40px;
+    background: #2C7DD8;
+    margin-top: 20px;
+    display: flex;
+}
+
+.contactus>.quick_links>.block:hover {
+    background: #6F6F6F;
+    cursor: pointer;
+}
+
+.contactus>.quick_links>.block>span {
+    align-self: center;
+    margin: 0 auto;
+}
